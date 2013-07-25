@@ -76,8 +76,8 @@
 map = new OpenLayers.Map( &#39;mapa&#39;);
 layer = new OpenLayers.Layer.Argenmap();
 map.addLayer(layer);
-//Esta capa utiliza el SRS epsg:3857 por lo tanto
-//el mapa necesita reproyección de coordendas geografica a 
+//Esta capa utiliza el SRS EPSG:3857 (equivalente al EPSG:900913) por lo tanto
+//el mapa necesita reproyección de coordendas geograficas a 
 //a mercator para operaciones como setCenter
 map.setCenter(
     new OpenLayers.LonLat(-59, -34).transform(
