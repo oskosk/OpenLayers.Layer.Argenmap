@@ -1,4 +1,4 @@
-/* Copyright (c) 2013 Oscar Lopez (ver authors.txt para una lista
+/* Copyright (c) 2013 Oscar Lopez (see authors.txt for a
  * full list of contributors). Published under the 2-clause BSD license.
  * See license.txt in the repository for the
  * full text of the license. */
@@ -22,8 +22,8 @@
  *       ["http://cg.aws.af.cm/tms/capabasesigign/${z}/${x}/${y}.png",
  *        "http://mapaabierto.aws.af.cm/tms/capabasesigign/${z}/${x}/${y}.png",
  *        "http://robomap-cgastrell.rhcloud.com/tms/capabasesigign/${z}/${x}/${y}.png",
- *        "http://190.220.8.216/tms/capabaseargenmap/${z}/${x}/${y}.png",
- *        "http://sig.ign.gob.ar/tms/capabaseargenmap/${z}/${x}/${y}.png"          
+ *        "http://190.220.8.216/tms/capabasesigign/${z}/${x}/${y}.png",
+ *        "http://sig.ign.gob.ar/tms/capabasesigign/${z}/${x}/${y}.png"          
  *     ]); 
  * (end)
  *
@@ -56,8 +56,8 @@ OpenLayers.Layer.Argenmap = OpenLayers.Class(OpenLayers.Layer.XYZ, {
      *       ["http://cg.aws.af.cm/tms/capabasesigign/${z}/${x}/${y}.png",
      *        "http://mapaabierto.aws.af.cm/tms/capabasesigign/${z}/${x}/${y}.png",
      *        "http://robomap-cgastrell.rhcloud.com/tms/capabasesigign/${z}/${x}/${y}.png",
-     *        "http://190.220.8.216/tms/capabaseargenmap/${z}/${x}/${y}.png",
-     *        "http://sig.ign.gob.ar/tms/capabaseargenmap/${z}/${x}/${y}.png"          
+     *        "http://190.220.8.216/tms/capabasesigign/${z}/${x}/${y}.png",
+     *        "http://sig.ign.gob.ar/tms/capabasesigign/${z}/${x}/${y}.png"          
      *     ]); 
      * (end)
      */
