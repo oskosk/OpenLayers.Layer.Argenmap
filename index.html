@@ -71,6 +71,18 @@
         <p class="lead">Una clase OpenLayers.Layer.Argenmap para poder usar
           la infraestructura de tiles de <a href="http://www.ign.gob.ar/argenmap">Argenmap</a> del <a href="http://www.ign.gob.ar" target="_blank">Instituto Geográfico Nacional de Argentina</a></p>
         <a class="btn btn-large btn-success" href="example.html">Ver ejemplo &raquo;</a>
+        <h2>Uso básico </h2>
+        <pre>
+map = new OpenLayers.Map( &#39;mapa&#39;);
+layer = new OpenLayers.Layer.Argenmap();
+map.addLayer(layer);
+map.setCenter(
+    new OpenLayers.LonLat(-59, -34).transform(
+        new OpenLayers.Projection(&quot;EPSG:4326&quot;),
+        map.getProjectionObject()
+    ), 7
+);            
+        </pre>
       </div>
       <hr>
 
