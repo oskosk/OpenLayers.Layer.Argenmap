@@ -59,10 +59,9 @@ OpenLayers.Layer.Argenmap = OpenLayers.Class(OpenLayers.Layer.XYZ, {
      * (end)
      */
     url: [
-        'http://cg.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',
         'http://igntiles1.ap01.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',        
         'http://mapaabierto.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',
-        'http://190.220.8.216/tms/capabaseargenmap/${z}/${x}/${y}.png'
+        'http://igntiles2.eu01.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png'
     ],
 
     /**
