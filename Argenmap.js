@@ -41,10 +41,9 @@ OpenLayers.Layer.Argenmap = OpenLayers.Class(OpenLayers.Layer.XYZ, {
     /**
      * {String} The tileset URL scheme. Defaults to
      * [
-     *   'http://cg.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',
-     *   'http://mapaabierto.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',
-     *   'http://robomap-cgastrell.rhcloud.com/tms/capabaseargenmap/${z}/${x}/${y}.png',
-     *   'http://sig.ign.gob.ar/tms/capabaseargenmap/${z}/${x}/${y}.png'     
+        'http://igntiles1.ap01.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',        
+        'http://mapaabierto.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png',
+        'http://igntiles2.eu01.aws.af.cm/tms/capabaseargenmap/${z}/${x}/${y}.png'
      * ]
      * (the official Argenmap tileset) if the second argument to the constructor
      * is null or undefined. To use another tileset you can have something
